@@ -1,0 +1,249 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   '/home/dominic/.nvm/v0.4.7/bin/npm',
+verbose cli   'publish' ]
+info using npm@1.0.6
+info using node@v0.4.7
+verbose config file /home/dominic/.npmrc
+verbose config file /home/dominic/.nvm/v0.4.7/etc/npmrc
+verbose publish [ '.' ]
+silly testEngine { name: 'style',
+silly testEngine   description: 'color in your node.js console, without monkeypatching',
+silly testEngine   version: '0.1.0',
+silly testEngine   author: 
+silly testEngine    { name: 'Dominic Tarr',
+silly testEngine      email: 'dominic.tarr@gmail.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/dominictarr/style.git' },
+silly testEngine   engine: [ 'node >=0.2.0' ],
+silly testEngine   main: './style',
+silly testEngine   engines: { node: '>=0.2.0' },
+silly testEngine   dependencies: { curry: '0.0.x' },
+silly testEngine   devDependencies: { expresso: '>=0.6.0' },
+silly testEngine   directories: { lib: '.' },
+silly testEngine   homepage: 'https://github.com/dominictarr/style',
+silly testEngine   scripts: { test: 'expresso test/*.js' },
+silly testEngine   _id: 'style@0.1.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true }
+verbose caching package.json
+verbose loadDefaults style@0.1.0
+verbose pack /home/dominic/dev/style /tmp/npm-1306814649364/1306814649363-0.2858463409356773/tmp.tgz
+silly testEngine { name: 'style',
+silly testEngine   description: 'color in your node.js console, without monkeypatching',
+silly testEngine   version: '0.1.0',
+silly testEngine   author: 
+silly testEngine    { name: 'Dominic Tarr',
+silly testEngine      email: 'dominic.tarr@gmail.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/dominictarr/style.git' },
+silly testEngine   engine: [ 'node >=0.2.0' ],
+silly testEngine   main: './style',
+silly testEngine   engines: { node: '>=0.2.0' },
+silly testEngine   dependencies: { curry: '0.0.x' },
+silly testEngine   devDependencies: { expresso: '>=0.6.0' },
+silly testEngine   directories: { lib: '.' },
+silly testEngine   homepage: 'https://github.com/dominictarr/style',
+silly testEngine   scripts: { test: 'expresso test/*.js' },
+silly testEngine   _id: 'style@0.1.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/home/dominic/dev/style' }
+verbose caching /home/dominic/dev/style/package.json
+verbose loadDefaults style@0.1.0
+verbose mkdir done: /tmp/npm-1306814649364/1306814649363-0.2858463409356773 755
+verbose mkdir'ed /tmp/npm-1306814649364/1306814649363-0.2858463409356773
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'style/package.json',
+silly tar args   'style/index.js',
+silly tar args   'style/style.js',
+silly tar args   'style/README.md',
+silly tar args   'style/test/style.expresso.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir done: /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/tmp/npm-1306814649364/1306814649363-0.2858463409356773/tmp.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/___package.npm"
+silly asyncMap in gTP /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/___package.npm/style/
+silly asyncMap in gTP /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/___package.npm/style/package.json
+silly asyncMap in gTP /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/___package.npm/style/index.js
+silly asyncMap in gTP /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/___package.npm/style/README.md
+silly asyncMap in gTP /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/___package.npm/style/style.js
+silly asyncMap in gTP /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/___package.npm/style/test/
+silly asyncMap in gTP /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/___package.npm/style/test/style.expresso.js
+verbose gunzed /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/___package.npm/style
+verbose rm'ed /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/package
+verbose renamed [ '/tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/___package.npm/style',
+verbose renamed   '/tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/package' ]
+silly testEngine { name: 'style',
+silly testEngine   description: 'color in your node.js console, without monkeypatching',
+silly testEngine   version: '0.1.0',
+silly testEngine   author: 
+silly testEngine    { name: 'Dominic Tarr',
+silly testEngine      email: 'dominic.tarr@gmail.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/dominictarr/style.git' },
+silly testEngine   engine: [ 'node >=0.2.0' ],
+silly testEngine   main: './style',
+silly testEngine   engines: { node: '>=0.2.0' },
+silly testEngine   dependencies: { curry: '0.0.x' },
+silly testEngine   devDependencies: { expresso: '>=0.6.0' },
+silly testEngine   directories: { lib: '.' },
+silly testEngine   homepage: 'https://github.com/dominictarr/style',
+silly testEngine   scripts: { test: 'expresso test/*.js' },
+silly testEngine   _id: 'style@0.1.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/package' }
+verbose caching /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/package/package.json
+verbose loadDefaults style@0.1.0
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/package/package.json
+verbose pack /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/package /home/dominic/.npm/style/0.1.0/package.tgz
+verbose from cache /tmp/npm-1306814649364/1306814649363-0.2858463409356773/contents/package/package.json
+verbose mkdir done: /home/dominic/.npm/style/0.1.0 755
+verbose mkdir'ed /home/dominic/.npm/style/0.1.0
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/package.json',
+silly tar args   'package/index.js',
+silly tar args   'package/README.md',
+silly tar args   'package/style.js',
+silly tar args   'package/test/style.expresso.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir done: /home/dominic/.npm/style/0.1.0/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/dominic/.npm/style/0.1.0/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/dominic/.npm/style/0.1.0/package.tgz"
+verbose success tar "-mvxpf" "-" "--no-same-owner" "-C" "/home/dominic/.npm/style/0.1.0/___package.npm"
+silly asyncMap in gTP /home/dominic/.npm/style/0.1.0/___package.npm/package/
+silly asyncMap in gTP /home/dominic/.npm/style/0.1.0/___package.npm/package/package.json
+silly asyncMap in gTP /home/dominic/.npm/style/0.1.0/___package.npm/package/index.js
+silly asyncMap in gTP /home/dominic/.npm/style/0.1.0/___package.npm/package/README.md
+silly asyncMap in gTP /home/dominic/.npm/style/0.1.0/___package.npm/package/style.js
+silly asyncMap in gTP /home/dominic/.npm/style/0.1.0/___package.npm/package/test/
+silly asyncMap in gTP /home/dominic/.npm/style/0.1.0/___package.npm/package/test/style.expresso.js
+verbose gunzed /home/dominic/.npm/style/0.1.0/___package.npm/package
+verbose rm'ed /home/dominic/.npm/style/0.1.0/package
+verbose renamed [ '/home/dominic/.npm/style/0.1.0/___package.npm/package',
+verbose renamed   '/home/dominic/.npm/style/0.1.0/package' ]
+silly testEngine { name: 'style',
+silly testEngine   description: 'color in your node.js console, without monkeypatching',
+silly testEngine   version: '0.1.0',
+silly testEngine   author: 
+silly testEngine    { name: 'Dominic Tarr',
+silly testEngine      email: 'dominic.tarr@gmail.com' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/dominictarr/style.git' },
+silly testEngine   engine: [ 'node >=0.2.0' ],
+silly testEngine   main: './style',
+silly testEngine   engines: { node: '>=0.2.0' },
+silly testEngine   dependencies: { curry: '0.0.x' },
+silly testEngine   devDependencies: { expresso: '>=0.6.0' },
+silly testEngine   directories: { lib: '.' },
+silly testEngine   homepage: 'https://github.com/dominictarr/style',
+silly testEngine   scripts: { test: 'expresso test/*.js' },
+silly testEngine   _id: 'style@0.1.0',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.7',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: 
+silly testEngine    { shasum: '9d242b9e91af880573601a5ad3cd4ce45687c9de',
+silly testEngine      tarball: 'http://registry.npmjs.org/style/-/style-0.1.0.tgz' } }
+verbose caching /home/dominic/.npm/style/0.1.0/package/package.json
+verbose loadDefaults style@0.1.0
+silly updated sha bytes 1553
+info shasum 9d242b9e91af880573601a5ad3cd4ce45687c9de
+info shasum /home/dominic/.npm/style/0.1.0/package.tgz
+verbose from cache /home/dominic/.npm/style/0.1.0/package/package.json
+verbose chmod /home/dominic/.npm/style/0.1.0/package.json 644
+verbose chmod /home/dominic/.npm/style/0.1.0/package.tgz 644
+silly publish { name: 'style',
+silly publish   description: 'color in your node.js console, without monkeypatching',
+silly publish   version: '0.1.0',
+silly publish   author: 
+silly publish    { name: 'Dominic Tarr',
+silly publish      email: 'dominic.tarr@gmail.com' },
+silly publish   repository: 
+silly publish    { type: 'git',
+silly publish      url: 'git://github.com/dominictarr/style.git' },
+silly publish   engine: [ 'node >=0.2.0' ],
+silly publish   main: './style',
+silly publish   engines: { node: '>=0.2.0' },
+silly publish   dependencies: { curry: '0.0.x' },
+silly publish   devDependencies: { expresso: '>=0.6.0' },
+silly publish   directories: { lib: '.' },
+silly publish   homepage: 'https://github.com/dominictarr/style',
+silly publish   scripts: { test: 'expresso test/*.js' },
+silly publish   _id: 'style@0.1.0',
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.0.6',
+silly publish   _nodeVersion: 'v0.4.7',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: '9d242b9e91af880573601a5ad3cd4ce45687c9de',
+silly publish      tarball: 'http://registry.npmjs.org/style/-/style-0.1.0.tgz' } }
+info prepublish style@0.1.0
+verbose PUT style
+verbose raw, before any munging style
+verbose url resolving [ 'http://registry.npmjs.org/', './style' ]
+verbose url resolved http://registry.npmjs.org/style
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/style',
+verbose url parsed   pathname: '/style' }
+WARN Sending authorization over insecure channel.
+silly writing json { _id: 'style',
+silly writing json   name: 'style',
+silly writing json   description: 'color in your node.js console, without monkeypatching',
+silly writing json   'dist-tags': {},
+silly writing json   versions: {},
+silly writing json   maintainers: 
+silly writing json    [ { name: 'dominictarr',
+silly writing json        email: 'dominic.tarr@gmail.com' } ] }
+verbose response http://registry.npmjs.org/style
+silly chunk {"error":"conflict","reason":"Document update conflict."}
+silly chunk 
+verbose GET style
+verbose raw, before any munging style
+verbose url resolving [ 'http://registry.npmjs.org/', './style' ]
+verbose url resolved http://registry.npmjs.org/style
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/style',
+verbose url parsed   pathname: '/style' }
+verbose response http://registry.npmjs.org/style
+silly chunk {"_id":"style","_rev":"5-43d2dc4520fb009df78b85199257711f","name":"style","description":"color in your node.js console, without monkeypatching","dist-tags":{"latest":"0.0.2"},"versions":{"0.1.0":{"name":"style","description":"simple colourizer in a functional style","version":"0.1.0","author":{"name":"Dominic Tarr","email":"dominic.tarr@gmail.com"},"repository":"http://github.com/dominictarr/style.git","engine":["node >=0.2.0"],"main":"./style","engines":{"node":">=0.2.0"},"devDependencies":{"expresso":">=0.6.0"},"directories":{"lib":"."},"homepage":"https://github.com/dominictarr/style","scripts":{"test":"expresso test/*.js"},"_id":"style@0.1.0","_engineSupported":true,"_npmVersion":"0.2.17","_nodeVersion":"v0.4.0","files":[""],"_defaultsLoaded":true,"dist":{"shasum":"04b5c93cf1f9b2527a4813eac21f7dad20a36761","tarball":"http://registry.npmjs.org/style/-/style-0.1.0.tgz"}},"0.0.2":{"name":"style","description":"color in your node.js console, without monkeypatching","version":"0.0.2","author":{"name":"Dominic Tarr","email":"dominic.tarr@gmail.com"},"repository":{"type":"git","url":"git://github.com/dominictarr/colors.js.git"},"engine":["node >=0.2.0"],"main":"style","engines":{"node":">=0.2.0"},"devDependencies":{"expresso":">=0.6.0"},"directories":{"lib":""},"files":[""],"homepage":"https://github.com/dominictarr/style","scripts":{"test":"expresso test/*.js"},"_id":"style@0.0.2","_engineSupported":true,"_npmVersion":"0.3.0-10","_nodeVersion":"v0.4.0","_defaultsLoaded":true,"dist":{"shasum":"2d853fba29b0b3cb4e267ddb0c0de4a043614893","tarball":"http://registry.npmjs.org/style/-/style-0.0.2.tgz"}}},"maintainers":[{"name":"dominictarr","email":"dominic.tarr@gmail.com"}],"time":{"0.1.0":"2011-02-19T04:01:57.443Z","0.0.2":"2011-02-19T06:10:31.371Z"},"author":{"name":"Dominic Tarr","email":"dominic.tarr@gmail.com"},"repository":{"type":"git","url":"git://github.com/dominictarr/colors.js.git"}}
+info Already published style@0.1.0
+verbose uploading bin dists []
+ERR! publish fail Cannot publish over existing version.
+ERR! publish fail Bump the 'version' field, set the --force flag, or
+ERR! publish fail     npm unpublish 'style@0.1.0'
+ERR! publish fail and try again
+ERR! 
+ERR! System Linux 2.6.35-28-generic
+ERR! command "node" "/home/dominic/.nvm/v0.4.7/bin/npm" "publish"
+verbose exit [ 1, true ]

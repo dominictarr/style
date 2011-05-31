@@ -1,7 +1,7 @@
 {
   "name": "style",
   "description": "color in your node.js console, without monkeypatching",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Dominic Tarr <dominic.tarr@gmail.com>",
   "repository": "http://github.com/dominictarr/style.git",
   "engine": [
