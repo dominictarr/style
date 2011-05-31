@@ -11,6 +11,9 @@
   "engines": {
     "node": ">=0.2.0"
   },
+  "dependencies":{
+    "curry": "0.0.x"
+  },
   "devDependencies":{
     "expresso": ">=0.6.0"
   },
