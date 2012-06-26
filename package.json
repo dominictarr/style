@@ -1,7 +1,7 @@
 {
   "name": "style",
   "description": "color in your node.js console, without monkeypatching",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Dominic Tarr <dominic.tarr@gmail.com>",
   "repository": "http://github.com/dominictarr/colors.js.git",
   "engine": [
@@ -12,7 +12,8 @@
     "node": ">=0.2.0"
   },
   "devDependencies":{
-    "expresso": ">=0.6.0"
+    "synct": "1",
+    "should": "*"
   },
   "directories": {
     "lib": ""
